@@ -79,8 +79,11 @@ while(true){
         }
     }
 
-    if(valid || trymore === 'n'){
+    if(valid && trymore === 'n'){
         console.log(dig1, operator, dig2, "=", result);
+        trymore = 'y';
+        continue;
+    } else {
         trymore = 'y';
         continue;
     }
