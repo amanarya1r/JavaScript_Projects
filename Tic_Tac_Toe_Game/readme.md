@@ -1,5 +1,5 @@
-## Tic Toe Game 
-This project is based on the nested if-else and loop condition where a two/one user can play Tic Toe game.
+## Tic Tac Toe Game 
+This project is based on the nested if-else and loop condition where a two/one user can play Tic Tac Toe game.
 To determine the position of board multi-dimensional array has been used, which look like this:
 
 ```javascript
@@ -18,7 +18,7 @@ board[0][2]; //first row-1, column-2
 And just like that user has been asked to give number[user can give 1-3 only] for row and column separately. User given value get constantly checked via if-else condition.
 The maximum number user can give value is 9 because there are only 9 slots. Also the turn get cycled between 'X' user and '0' user.
 ***
-Every time when user give a value then tic toe board get updated and get printed in this manner;
+Every time when user give a value then tic tac toe board get updated and get printed in this manner;
 ```javascript
 function printBoard(board){
     for (let i = 0; i < board.length; i++){ //by this a whole row (may 1, 2, 3 depending on the value of i) get choosen 
