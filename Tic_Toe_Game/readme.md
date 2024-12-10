@@ -71,8 +71,10 @@ function checkWin(board, turn){
 ```
 *** 
 #### Here is the gameplay:
-When game got tied;
-
-
-When game got won;
-
+<div align="center">
+<p>When game got tied;</p>
+<img src="https://github.com/user-attachments/assets/a5d93e92-847c-4099-8ba6-8418c595bcea" alt="tie game">
+<br><br>
+<p>When game got won;</p>
+<img src="https://github.com/user-attachments/assets/106e7566-78d1-4f5d-a06e-9099cfe6e9f9" alt="game won">
+</div>
