@@ -8,3 +8,4 @@ Depending on what how many answers he/she entered as number are correct, score w
 There are total of 26 question in qustns.json file so if user added greater number 26 when they asked for number of questions then question will get repeated.
 
 #### Here is how Random Quiz works:
+![YUY 2024-12-18 18 43 41](https://github.com/user-attachments/assets/95f7fb8f-3b81-4b64-a5cc-4a4eb7ae4894)
