@@ -1,0 +1,265 @@
+{
+    "questions": [
+      {
+        "question": "What does JSON stand for?",
+        "options": [
+          "JavaScript Object Notation",
+          "Java Source Object Notation",
+          "JavaScript Oriented Notation",
+          "Java Syntax Object Notation"
+        ],
+        "answer": "JavaScript Object Notation"
+      },
+      {
+        "question": "Which of the following is NOT a valid JSON data type?",
+        "options": [
+          "String",
+          "Boolean",
+          "Date",
+          "Number"
+        ],
+        "answer": "Date"
+      },
+      {
+        "question": "How do you parse a JSON string in JavaScript?",
+        "options": [
+          "JSON.parse()",
+          "JSON.stringify()",
+          "parse.JSON()",
+          "JSON.toString()"
+        ],
+        "answer": "JSON.parse()"
+      },
+      {
+        "question": "Which of the following is a correct JSON object?",
+        "options": [
+          "{ \"name\": 'John' }",
+          "{ name: 'John' }",
+          "{ \"name\": \"John\" }",
+          "{ name = \"John\" }"
+        ],
+        "answer": "{ \"name\": \"John\" }"
+      },
+      {
+        "question": "Which method converts a JavaScript object to a JSON string?",
+        "options": [
+          "JSON.toString()",
+          "JSON.parse()",
+          "JSON.stringify()",
+          "object.toJSON()"
+        ],
+        "answer": "JSON.stringify()"
+      },
+      {
+        "question": "What is the output of `JSON.stringify([1, 2, 3])`?",
+        "options": [
+          "[1,2,3]",
+          "1,2,3",
+          "'{1,2,3}'",
+          "None of the above"
+        ],
+        "answer": "[1,2,3]"
+      },
+      {
+        "question": "What is the file extension commonly used for JSON files?",
+        "options": [
+          ".jsn",
+          ".json",
+          ".txt",
+          ".jfile"
+        ],
+        "answer": ".json"
+      },
+      {
+        "question": "Which JavaScript method checks if a variable is an array?",
+        "options": [
+          "Array.isArray()",
+          "isArray()",
+          "JSON.isArray()",
+          "Array.check()"
+        ],
+        "answer": "Array.isArray()"
+      },
+      {
+        "question": "In JavaScript, what will `typeof null` return?",
+        "options": [
+          "object",
+          "null",
+          "undefined",
+          "string"
+        ],
+        "answer": "object"
+      },
+      {
+        "question": "How are key-value pairs separated in JSON?",
+        "options": [
+          "Equals (=)",
+          "Colon (:)",
+          "Comma (,)",
+          "Semicolon (;)"
+        ],
+        "answer": "Colon (:)"
+      },
+      {
+        "question": "What will `JSON.parse('null')` return?",
+        "options": [
+          "undefined",
+          "null",
+          "'null'",
+          "0"
+        ],
+        "answer": "null"
+      },
+      {
+        "question": "What is the correct syntax for a JSON array?",
+        "options": [
+          "{ \"name\": \"John\" }",
+          "[1, 2, 3]",
+          "(1, 2, 3)",
+          "<1, 2, 3>"
+        ],
+        "answer": "[1, 2, 3]"
+      },
+      {
+        "question": "Which of the following is a falsy value in JavaScript?",
+        "options": [
+          "0",
+          "'false'",
+          "[]",
+          "'null'"
+        ],
+        "answer": "0"
+      },
+      {
+        "question": "How do you comment in JSON?",
+        "options": [
+          "// Comment",
+          "<!-- Comment -->",
+          "{# Comment #}",
+          "JSON does not support comments"
+        ],
+        "answer": "JSON does not support comments"
+      },
+      {
+        "question": "What will `JSON.parse('{}')` return?",
+        "options": [
+          "{}",
+          "null",
+          "undefined",
+          "SyntaxError"
+        ],
+        "answer": "{}"
+      },
+      {
+        "question": "What is the output of `JSON.stringify(true)`?",
+        "options": [
+          "'true'",
+          "true",
+          "'True'",
+          "'false'"
+        ],
+        "answer": "true"
+      },
+      {
+        "question": "What does `JSON.stringify({ key: undefined })` return?",
+        "options": [
+          "{ \"key\": undefined }",
+          "{}",
+          "null",
+          "undefined"
+        ],
+        "answer": "{}"
+      },
+      {
+        "question": "How can you add a key-value pair to an object in JavaScript?",
+        "options": [
+          "obj.key = value",
+          "add(obj, key, value)",
+          "obj[key] = value",
+          "Both obj.key = value and obj[key] = value"
+        ],
+        "answer": "Both obj.key = value and obj[key] = value"
+      },
+      {
+        "question": "Which of these will throw a SyntaxError?",
+        "options": [
+          "JSON.parse('[1,2,3]')",
+          "JSON.parse('true')",
+          "JSON.parse('{key: value}')",
+          "JSON.parse('null')"
+        ],
+        "answer": "JSON.parse('{key: value}')"
+      },
+      {
+        "question": "What is the correct way to write a JSON object with multiple properties?",
+        "options": [
+          "{ name: 'John', age: 30 }",
+          "{ \"name\": \"John\", \"age\": 30 }",
+          "{ 'name': 'John'; 'age': 30 }",
+          "{ \"name\": John, \"age\": 30 }"
+        ],
+        "answer": "{ \"name\": \"John\", \"age\": 30 }"
+      },
+      {
+        "question": "How do you access a JSON property in JavaScript?",
+        "options": [
+          "object.property",
+          "object[\"property\"]",
+          "Both A and B",
+          "object::property"
+        ],
+        "answer": "Both A and B"
+      },
+      {
+        "question": "What will `typeof []` return in JavaScript?",
+        "options": [
+          "array",
+          "object",
+          "undefined",
+          "null"
+        ],
+        "answer": "object"
+      },
+      {
+        "question": "How is JSON data transmitted over HTTP?",
+        "options": [
+          "As plain text",
+          "As a binary file",
+          "As an HTML document",
+          "As a CSV file"
+        ],
+        "answer": "As plain text"
+      },
+      {
+        "question": "Which HTTP method is commonly used to send JSON data?",
+        "options": [
+          "GET",
+          "POST",
+          "DELETE",
+          "PATCH"
+        ],
+        "answer": "POST"
+      },
+      {
+        "question": "What is the output of `JSON.parse('42')`?",
+        "options": [
+          "42",
+          "'42'",
+          "SyntaxError",
+          "null"
+        ],
+        "answer": "42"
+      },
+      {
+        "question": "What does `JSON.stringify({ a: 1, b: 2 })` produce?",
+        "options": [
+          "{ a: 1, b: 2 }",
+          "'{ \"a\": 1, \"b\": 2 }'",
+          "[1, 2]",
+          "SyntaxError"
+        ],
+        "answer": "'{ \"a\": 1, \"b\": 2 }'"
+      }
+    ]
+  }
+  
