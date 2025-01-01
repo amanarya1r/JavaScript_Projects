@@ -17,7 +17,7 @@ const SYMBOLS_VALUES = {
     "D": 2
 }
 
-const deposit = () => {
+const deposit = () => { //deposit function is used for adding deposit
     while (true){    
         const depositAmount = prompt("Enter a deposit amount: ");
         const numberDepositAmount = parseFloat(depositAmount);
@@ -138,23 +138,23 @@ const game = () => { //game start by this function
 
     while (true){
         console.log("You have a balance of $" + balance);
-        const numberOfLines = getNumberOfLines();
-        const bet = getBet(balance, numberOfLines);
+        const numberOfLines = getNumberOfLines(); //asks number of lines
+        const bet = getBet(balance, numberOfLines); //asks for bet
         balance -= bet * numberOfLines;
-        const reels = spin();
-        const rows = transpose(reels);
+        const reels = spin(); //spin takes place
+        const rows = transpose(reels); //transpose takes place
         console.log();
-        printRows(rows);
-        const winnings = getWinnings(rows, bet, numberOfLines);
-        balance += winnings;
-        console.log(`You won, $${winnings.toString()}`);
+        printRows(rows); //slot wheels got printed
+        const winnings = getWinnings(rows, bet, numberOfLines); //check if the user win or loose
+        balance += winnings; //money added to user deposited balance
+        console.log(`You won, $${winnings.toString()}`); //show how much money is won by the user
         console.log();
-        if (balance <= 0){
+        if (balance <= 0){ //checks if user become user ran out of money, if true then break from loop
             console.log("you ran out of money!");
             break;
         }
 
-        const playAgain = prompt("Do you want to play again? (y/n)?: ");
+        const playAgain = prompt("Do you want to play again? (y/n)?: "); //ask user for play again yes or no
         if (playAgain != "y"){
             break;
         }
