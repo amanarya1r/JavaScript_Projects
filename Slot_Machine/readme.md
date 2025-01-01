@@ -62,3 +62,4 @@ const printRows = (rows) => {
 
 **Here is how Slot Machine works:**
 
+![YUY 2025-01-01 18 59 16](https://github.com/user-attachments/assets/036a3aa6-63a0-4066-a276-432e48c7fbce)
