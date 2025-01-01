@@ -118,14 +118,14 @@ const getWinnings = (rows, bet, lines) => {
         const symbols = rows[row];
         let allSame = true;
 
-        for (const symbol of symbols){
+        for (const symbol of symbols){ //if symbols are not same in the slot machine 
             if (symbol != symbols[0]){
                 allSame = false;
                 break;
             }
         }
 
-        if (allSame){
+        if (allSame){ //if symbols are same in the slot machine
             winnings += bet * SYMBOLS_VALUES[symbols[0]];
         }
     }
@@ -133,7 +133,7 @@ const getWinnings = (rows, bet, lines) => {
     return winnings;
 }
 
-const game = () => {
+const game = () => { //game start by this function
     let balance = deposit();
 
     while (true){
